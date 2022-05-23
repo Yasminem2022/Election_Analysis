@@ -43,7 +43,8 @@ The analysis of the election show that:
 ## Summary
 Overall, this script can be used in other elections to show breakdown winners natioanlly or locally. A few ways this script can be modified for other elections is by:
 1. Replacing the data source name in the exisitng code to whatever name the new source will be
-2. Changing the file path to match that of the new data source
+2. Changing the file path to match that of the new data source so that it will load and save properly. Example below of what to change
+![codepic](election analysis code pic.png)
 3. Either making sure the columns/rows line up to fit the code, or by changing the following lines to fit the new dataset:
 ```
  # Get the candidate name from each row.
